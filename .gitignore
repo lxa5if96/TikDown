@@ -1,0 +1,10 @@
+cat > .gitignore <<'EOF'
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+.vercel/
+.DS_Store
+instagram_test.mp4
+EOF

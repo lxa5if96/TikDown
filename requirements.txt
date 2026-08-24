@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+requests
+python-dotenv
+pydantic
+slowapi
+jinja2
+yt-dlp

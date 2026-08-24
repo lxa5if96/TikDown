@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+  
+    <title>TikDown</title>
+
+    <link
+        rel="stylesheet"
+        href="/static/css/style.css"
+    >
+    <link
+        rel="icon"
+        type="image/png"
+        href="/static/images/favicon.png"
+    >
+
+    <link
+        rel="stylesheet"
+        href="/static/css/style.css"
+    >
+
+
+
+
+</head>
+
+
+<body>
+
+
+    <!-- NAVBAR -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Tik<span>Down</span>
+        </div>
+
+
+        <button
+            id="theme-toggle"
+            class="theme-toggle"
+            aria-label="Toggle dark mode"
+        >
+            🌙
+        </button>
+
+    </nav>
+
+
+
+    <!-- MAIN -->
+
+    <main class="container">
+
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <h1>
+                Download
+                <span>TikTok & Instagram</span>
+                Videos
+            </h1>
+
+
+           <p class="subtitle">
+                Paste a TikTok or Instagram link and
+                download your video quickly and easily.
+            </p>
+        </section>
+
+
+
+        <!-- SEARCH -->
+
+        <div class="search-card">
+
+            <input
+                    id="video-url"
+                    type="text"
+                    placeholder="Paste TikTok or Instagram link here..."
+                    autocomplete="off"
+                >
+
+
+            <button
+                id="download-btn"
+                class="download-main"
+            >
+                Download
+            </button>
+
+        </div>
+
+
+
+        <!-- ERROR -->
+
+        <p id="error"></p>
+
+
+
+        <!-- RESULT -->
+
+        <section
+            id="result"
+            class="result hidden"
+        >
+
+
+            <img
+                id="cover"
+                class="cover"
+                src=""
+                alt="Video cover"
+            >
+
+
+            <div class="video-info">
+
+                <h2 id="title"></h2>
+
+
+                <p
+                    id="author"
+                    class="author"
+                ></p>
+
+
+                <p class="duration">
+
+                    Duration:
+                    <span id="duration"></span>
+                    seconds
+
+                </p>
+
+            </div>
+
+
+
+            <!-- DOWNLOAD BUTTONS -->
+
+            <div class="buttons">
+
+
+                <button
+                    id="video-btn"
+                    class="button"
+                >
+                    Download Video
+                </button>
+
+
+                <button
+                    id="hd-btn"
+                    class="button"
+                >
+                    Download HD
+                </button>
+
+
+                <button
+                    id="music-btn"
+                    class="button"
+                >
+                    Download Audio
+                </button>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        © 2026 TikDown. All rights reserved.
+
+    </footer>
+
+
+
+    <script src="/static/js/app.js"></script>
+
+</body>
+
+</html>
