@@ -110,9 +110,12 @@ app.add_exception_handler(
 app.add_middleware(
     TrustedHostMiddleware,
     allowed_hosts=[
-        "localhost",
+        "tik-down.me",
+        "www.tik-down.me",
+        "*.vercel.app",
+        "localhost"
         "127.0.0.1",
-        "tik-down-nu.vercel.app"
+        # "tik-down-nu.vercel.app"
     ],
 )
 
